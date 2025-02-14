@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+}
+.menu{
+    display: flex;
+}
+.menu div{
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.row button{
+    background-color: rgb(74, 115, 186);
+    font-size: 20px;
+    color:black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+}
+.box url{
+    width: 30px;
+    height: 10px;
+    display: block;
+}
+
