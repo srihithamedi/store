@@ -2,6 +2,10 @@
     display: flex;
     justify-content:space-between;
     padding: 50px;
+    background-color: rgb(153, 191, 242);
+}
+#productBox{
+    background-color: rgb(198, 222, 101);
 }
 .menu{
     display: flex;
