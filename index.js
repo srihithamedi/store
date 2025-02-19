@@ -9,6 +9,10 @@ fetch("products.json")
     .then((response) => response.json())
     .then((data) => (showProducts(data)))
 
+
+
+
+    
 const cart = {};
 const addToCart = (id) => {
     if (!cart[id])
@@ -18,16 +22,16 @@ const addToCart = (id) => {
 const decrement = (id) => {
     cart[id] = cart[id] - 1;
     showCart();
-}
+};
 const increment = (id) => {
     cart[id] = cart[id] + 1;
     showCart();
     // items.innerHTML=100;
-}
+};
 const deletecart = (id) => {
     delete cart[id]
     showCart();
-}
+};
 const showTotal = () => {
     // sum by default will be 0;
     // in reduce first variable will hold 0 and second variable will hold value
@@ -45,9 +49,9 @@ const hideCart = () => {
     cartBox.style.display = "none";
     productBox.style.display = "block";
 };
-const showHome = () =>{
-    productBox.style.display = "block";
-}
+// const showHome = () =>{
+//     productBox.style.display = "block";
+// }
 const showCart = () => {
     let count = Object.keys(cart).length
 
